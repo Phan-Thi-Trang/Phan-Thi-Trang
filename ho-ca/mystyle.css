@@ -1,0 +1,159 @@
+#content {
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url('images/bg2.jpeg')
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(0, 125, 215);
+    margin: 10px 5px;
+}
+
+#shark {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 14s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#turtle {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Turtle;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#faintSchool {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: FaintSchool;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#goldFishSchool {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: GoldFishSchool;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#diver1 {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Diver1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#diver2 {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Diver2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#diver3 {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Diver3;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes Shark {
+    0% {left: 100px;top: 400px;}
+    20% {left: 800px;top: 400px;}
+    40% {left: 1300px;top: 300px;}
+    50% {left: 1300px;top: 200px;}
+    60% {left: 1000px;top: 200px;}
+    80% {left: 500px;top: 200px;}
+    100% {left: 100px;top: 400px;transform: scaleX(-1);}
+}
+
+@keyframes Turtle {
+    0% {left: 100px;top: 600px;}
+    20% {left: 800px;top: 600px;}
+    40% {left: 1300px;top: 600px;}
+    50% {left: 1300px;top: 600px;}
+    60% {left: 800px;top: 600px;}
+    80% {left: 500px;top: 600px;}
+    100% {left: 100px;top: 600px;transform: scaleX(-1);}
+}
+
+@keyframes FaintSchool {
+    0% {left: 100px;top: 400px;}
+    20% {left: 300px;top: 400px;}
+    40% {left: 500px;top: 300px;}
+    50% {left: 600px;top: 50px;}
+    60% {left: 600px;top: 100px;}
+    80% {left: 500px;top: 200px;}
+    100% {left: 100px;top: 400px;transform: scaleX(-1);}
+}
+
+@keyframes GoldFishSchool {
+    0% {left: 100px;top: 200px;}
+    20% {left: 800px;top: 300px;}
+    40% {left: 1200px;top: 400px;}
+    50% {left: 1200px;top: 500px;}
+    60% {left: 800px;top: 400px;}
+    80% {left: 500px;top: 300px;}
+    100% {left: 100px;top: 200px;transform: scaleX(-1);}
+}
+
+@keyframes Diver1 {
+    0% {left: 200px;top: 100px;}
+    20% {left: 200px;top: 200px;}
+    40% {left: 200px;top: 300px;}
+    50% {left: 200px;top: 400px;}
+    60% {left: 200px;top: 300px;}
+    80% {left: 200px;top: 200px;}
+    100% {left: 200px;top: 100px;transform: scaleX(-1);}
+}
+
+
+@keyframes Diver2 {
+    0% {left: 600px;top: 100px;}
+    20% {left: 600px;top: 200px;}
+    40% {left: 600px;top: 300px;}
+    50% {left: 600px;top: 400px;}
+    60% {left: 600px;top: 300px;}
+    80% {left: 600px;top: 200px;}
+    100% {left: 600px;top: 100px;transform: scaleX(-1);}
+}
+
+@keyframes Diver3 {
+    0% {left: 1200px;top: 100px;}
+    20% {left: 1200px;top: 200px;}
+    40% {left: 1200px;top: 300px;}
+    50% {left: 1200px;top: 400px;}
+    60% {left: 1200px;top: 300px;}
+    80% {left: 1200px;top: 200px;}
+    100% {left: 1200px;top: 100px;transform: scaleX(-1);}
+}
